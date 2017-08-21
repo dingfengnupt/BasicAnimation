@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打字" />
+
+        <Button
+            android:id="@+id/bt_underline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下划线" />
+
+        <Button
+            android:id="@+id/bt_highlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高亮" />
+
+        <Button
+            android:id="@+id/bt_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="变色" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂停" />
+
+        <Button
+            android:id="@+id/bt_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="恢复" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继登顶中国电影票房总票房冠军后，上周六下午，《战狼2》票房正式突破50亿元大关，将国产片最高票房纪录又推上了一个台阶。昨天该片总票房已超过51亿元。"/>
+
+
+</LinearLayout>

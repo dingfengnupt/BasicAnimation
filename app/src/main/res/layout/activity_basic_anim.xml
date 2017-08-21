@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_fade_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="淡入" />
+
+        <Button
+            android:id="@+id/bt_fade_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="淡出" />
+
+        <Button
+            android:id="@+id/bt_flicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闪烁" />
+
+        <Button
+            android:id="@+id/bt_rotation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_zoom_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缩小" />
+
+        <Button
+            android:id="@+id/bt_zoom_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放大" />
+
+        <Button
+            android:id="@+id/bt_wipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="擦出1" />
+
+        <Button
+            android:id="@+id/bt_wipe_sector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="擦出2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂停" />
+
+        <Button
+            android:id="@+id/bt_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="恢复" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/test" />
+
+
+</LinearLayout>
